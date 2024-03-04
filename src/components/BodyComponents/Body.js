@@ -1,3 +1,4 @@
+import ConceptVideo from "../ConceptVideo/ConceptVideo";
 import BodyBackground from "./BodyBackground";
 import BodyDescription from "./BodyDescription";
 
@@ -6,6 +7,7 @@ const Body = () => {
     <div>
       <BodyBackground />
       <BodyDescription />
+      <ConceptVideo/>
     </div>
   );
 };
