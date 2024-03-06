@@ -1,13 +1,11 @@
-import ConceptVideo from "../ConceptVideo/ConceptVideo";
-import BodyBackground from "./BodyBackground";
-import BodyDescription from "./BodyDescription";
+import About from "../About/About";
+import BodyDetails from "./BodyDetails";
 
 const Body = () => {
   return (
     <div>
-      <BodyBackground />
-      <BodyDescription />
-      <ConceptVideo/>
+      <BodyDetails/>
+      <About/>
     </div>
   );
 };

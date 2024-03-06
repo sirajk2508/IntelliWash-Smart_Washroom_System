@@ -1,13 +1,29 @@
+import posterboy from "../../assets/posterboy-removebg-preview.png";
+
 const BodyDescription = () => {
   return (
-    <div className="relative h-[92vh] bg-gradient-to-bl from-gray-950 py-10 ">
-      <h1 className="font-bold text-7xl text-white mx-10 py-6 grid">
-        <span className="bg-gradient-to-r from-purple-300 text-center py-2 my-2 to-purple-700 text-transparent bg-clip-text text-8xl">
-          IntelliWash
-        </span>
-        <span className="text-center py-2">Multi-Sensor Smart Washroom System</span>
-      </h1>
-      <p className="text-4xl mx-10 text-center text-white font-bold py-6 ">Redefining Washroom Comfort with Smart, Clean, and Effortless Solutions.</p>
+    <div className="relative h-[92vh] bg-black bg-opacity-45 py-10 flex justify-between items-center">
+      <div className="mx-10 my-10">
+        <h1 className="font-extrabold text-8xl text-white mx-10 py-6 grid shadow-custom">
+          <span className="bg-gradient-to-r from-white text-center py-2 my-2 to-purple-300 text-transparent bg-clip-text text-8xl">
+            IntelliWash
+          </span>
+          <span className="text-4xl text-center py-2">
+            Multi-Sensor Smart Washroom System
+          </span>
+        </h1>
+        <p className="text-2xl mx-44 text-white font-semibold py-1 ">
+          Your washroom experience should be effortless. And now it is.
+          Redefining Washroom Comfort with Smart, Clean, and Effortless
+          Solutions.
+        </p>
+        <button className="bg-gray-950 hover:shadow-xl hover-py-3 hover:font-semibold m-2 p-8 py-4 text-white mx-44 text-xl">
+          Get Started
+        </button>
+      </div>
+      <div className="m-4 my-24 p-4 w-1/2 h-screen">
+        <img className="my-24" src={posterboy} alt="poster boy" />
+      </div>
     </div>
   );
 };

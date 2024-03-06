@@ -1,10 +1,10 @@
 const ConceptVideo = () => {
   return (
-    <div className="text-center relative flex overflow-x-scroll">
+    <div className="text-center relative flex overflow-x-scroll m-5 bg-gray-100 z-30 right-10">
       <div>
-        <div className="absolute inset-2 z-20 pointer-events-none w-screen h-screen">
+        <div className="absolute inset-2 z-20 pointer-events-none w-screen h-screen m-5">
           {/* This div prevents hovering directly over the video */}
-          <h1 className="absolute z-10 text-purple-700 bg-white p-4 text-5xl left-[5.2%] top-[5%] font-bold">
+          <h1 className="absolute z-10 text-purple-700 bg-white p-4 text-3xl left-[5.2%] font-semibold">
             Concept Video
           </h1>
         </div>
@@ -16,9 +16,9 @@ const ConceptVideo = () => {
         ></iframe>
       </div>
       <div>
-        <div className="absolute inset-2 z-20 pointer-events-none w-screen h-screen">
+        <div className="absolute inset-2 z-20 pointer-events-none w-screen h-screen m-5">
           {/* This div prevents hovering directly over the video */}
-          <h1 className="absolute z-10 text-purple-700 bg-white p-4 text-5xl left-[105.2%] top-[5%] font-bold">
+          <h1 className="absolute z-10 text-purple-700 bg-white p-4 text-3xl left-[105.2%] font-semibold">
             Demo Video
           </h1>
         </div>
