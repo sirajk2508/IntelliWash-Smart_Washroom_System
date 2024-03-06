@@ -1,3 +1,5 @@
+import { CONCEPT_VIDEO_URL } from "../../constants";
+
 const ConceptVideo = () => {
   return (
     <div className="text-center relative flex overflow-x-scroll m-5 bg-gray-100 z-30 right-10">
@@ -10,7 +12,7 @@ const ConceptVideo = () => {
         </div>
         <iframe
           className="relative w-screen h-screen -z-10"
-          src="https://www.youtube.com/embed/imfmboauyRo?autoplay=1&loop=1&mute=1"
+          src={CONCEPT_VIDEO_URL}
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
@@ -24,7 +26,7 @@ const ConceptVideo = () => {
         </div>
         <iframe
           className="relative w-screen h-screen -z-10"
-          src="https://www.youtube.com/embed/imfmboauyRo?autoplay=1&loop=1&mute=1"
+          src={CONCEPT_VIDEO_URL}
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
