@@ -1,3 +1,5 @@
+export const DOWN_ARROW = "https://cdn-icons-png.flaticon.com/512/32/32233.png";
+
 export const CONCEPT_VIDEO_URL = "https://www.youtube.com/embed/imfmboauyRo?autoplay=1&loop=1&mute=1";
 
 export const ELECTRICITY_MANAGEMENT_IMG_URL = "https://cdn4.iconfinder.com/data/icons/energy-21/128/Energy-20-512.png";
