@@ -1,5 +1,6 @@
 import posterboy from "../../assets/posterboy-removebg-preview.png";
-import { DOWN_ARROW } from "../../constants";
+import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
+import { scrollAbout } from "../lib/helper";
 
 const BodyDescription = () => {
   return (
@@ -28,7 +29,8 @@ const BodyDescription = () => {
         </div>
       </div>
       <div className="absolute bottom-20 bg-gradient-to-t from-purple-400 left-1/2 rounded-full flex justify-center items-center w-16 h-16">
-        <img alt="down arrow" src={DOWN_ARROW} className="w-10 rounded-full animate-bounce"/>
+  
+        <MdOutlineKeyboardDoubleArrowDown fontSize={50} color="white" className="w-10 rounded-full animate-bounce mt-3 cursor-pointer" onClick={() => scrollAbout()}/>
       </div>
     </div>
   );

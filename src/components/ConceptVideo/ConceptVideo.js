@@ -1,8 +1,9 @@
-import { CONCEPT_VIDEO_URL } from "../../constants";
+import { CONCEPT_VIDEO_URL } from "../lib/constants";
+
 
 const ConceptVideo = () => {
   return (
-    <div className="text-center relative flex overflow-x-scroll m-5 bg-gray-100 z-30 right-10">
+    <div className="ConceptVideo text-center relative flex overflow-x-scroll m-5 bg-gray-100 z-30 right-10 ConceptVideo">
       <div>
         <div className="absolute inset-2 z-20 pointer-events-none w-screen h-screen m-5">
           {/* This div prevents hovering directly over the video */}

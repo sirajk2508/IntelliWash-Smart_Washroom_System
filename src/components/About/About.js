@@ -1,14 +1,23 @@
 import {
-  ELECTRICITY_MANAGEMENT_IMG_URL,
   obj_electricity,
   reason_electricity,
-} from "../../constants";
+  obj_water,
+  reason_water,
+  obj_flush,
+  reason_flush,
+  obj_monitoring,
+  reason_monitoring,
+} from "../lib/constants";
+
+import { FcElectricity } from "react-icons/fc";
+import { FaHandHoldingWater, FaToilet } from "react-icons/fa";
 
 import ObjectiveCard from "./ObjectiveCard";
+import { MdVisibility } from "react-icons/md";
 
 const About = () => {
   return (
-    <div className="bg-gray-100 h-screen">
+    <div className="bg-gray-100 h-screen ">
       <p className="font-bold text-center text-3xl m-2 p-2 pt-10">
         About Project
       </p>
@@ -22,32 +31,34 @@ const About = () => {
       </p>
 
       <div className="flex flex-wrap justify-center">
-        <div className="shadow-2xl cursor-pointer w-[30%] m-2 mx-16 p-4 flex flex-col justify-center items-center">
-          <img
-            alt="electricity management logo"
-            className="w-40 m-2 p-2"
-            src={ELECTRICITY_MANAGEMENT_IMG_URL}
-          />
+        <div className="shadow-lg hover:shadow-2xl cursor-pointer w-[32%] m-4 mx-12 p-2 flex flex-col justify-center items-center">
+          <FcElectricity fontSize={75} color="black" className=" m-4 p-2" />
           <p className="text-lg p-1 font-semibold">{obj_electricity}</p>
           <p className="p-1 text-lg mx-2">{reason_electricity}</p>
         </div>
 
         <ObjectiveCard
-          objective={obj_electricity}
-          reason={reason_electricity}
-          imgUrl={ELECTRICITY_MANAGEMENT_IMG_URL}
+          objective={obj_water}
+          reason={reason_water}
+          icon={
+            <FaHandHoldingWater
+              fontSize={75}
+              color="#00B5E2"
+              className=" m-4 p-2"
+            />
+          }
         />
-
         <ObjectiveCard
-          objective={obj_electricity}
-          reason={reason_electricity}
-          imgUrl={ELECTRICITY_MANAGEMENT_IMG_URL}
+          objective={obj_flush}
+          reason={reason_flush}
+          icon={<FaToilet fontSize={75} color="#00B5E2" className=" m-4 p-2" />}
         />
-
         <ObjectiveCard
-          objective={obj_electricity}
-          reason={reason_electricity}
-          imgUrl={ELECTRICITY_MANAGEMENT_IMG_URL}
+          objective={obj_monitoring}
+          reason={reason_monitoring}
+          icon={
+            <MdVisibility fontSize={75} color="#00B5E2" className="p-2" />
+          }
         />
       </div>
     </div>
