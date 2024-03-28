@@ -7,7 +7,8 @@ const BodyBackground = () => {
       <img
         alt="background"
         className="w-screen h-[92vh]"
-        src={backgroundImage1}
+        // src={backgroundImage1}
+        src="https://images.pexels.com/photos/7130490/pexels-photo-7130490.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
       />
     </div>
   );
