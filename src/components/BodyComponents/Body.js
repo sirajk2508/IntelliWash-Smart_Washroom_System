@@ -1,4 +1,5 @@
 import About from "../About/About";
+import Contributors from "../ContributorCard/Contributors";
 import BodyDetails from "./BodyDetails";
 
 const Body = () => {
@@ -6,6 +7,7 @@ const Body = () => {
     <div>
       <BodyDetails/>
       <About/>
+      <Contributors/>
     </div>
   );
 };

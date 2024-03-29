@@ -4,6 +4,10 @@ export const CONCEPT_VIDEO_URL = "https://www.youtube.com/embed/imfmboauyRo?auto
 
 export const ELECTRICITY_MANAGEMENT_IMG_URL = "https://cdn4.iconfinder.com/data/icons/energy-21/128/Energy-20-512.png";
 
+export const CONTRIBUTOR_IMAGE_URL = "https://th.bing.com/th/id/OIP.tvaMwK3QuFxhTYg4PSNNVAHaHa?rs=1&pid=ImgDetMain";
+
+export const BACKGROUND_IMAGE_URL = "https://images.pexels.com/photos/7130490/pexels-photo-7130490.jpeg?auto=compress&cs=tinysrgb&h=650&w=940";
+
 
 export const obj_electricity = "Electricity Management";
 export  const reason_electricity = "You don't need to worry about turning the lights on and off when you enter or leave.";

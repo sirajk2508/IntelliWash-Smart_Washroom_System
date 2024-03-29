@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div className="bg-gray-100 h-screen ">
       <p className="font-bold text-center text-3xl m-2 p-2 pt-10">
-        About Project
+        Objectives
       </p>
       <p className="m-2 p-2 font-normal text-xl text-center">
         <span style={{ fontStyle: "italic" }}>IntelliWash</span> is an
